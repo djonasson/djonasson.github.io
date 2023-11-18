@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const repoURL = "https://github.com/djonasson/djonasson.github.io"
-const siteURL = "https://djonasson.github.io"
+const siteURL = "https://djonasson.github.io/"
 
 const config: Config = {
   title: 'djonasson.github.io',
@@ -15,6 +15,10 @@ const config: Config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
+
+  trailingSlash: true,
+
+  deploymentBranch: "production",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
