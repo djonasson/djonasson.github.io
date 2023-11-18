@@ -44,13 +44,13 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: `${repoURL}/tree/main/packages/create-docusaurus/templates/shared/`,
+          editUrl: `${repoURL}/tree/main/`,
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: `${repoURL}/tree/main/packages/create-docusaurus/templates/shared/`,
+          editUrl: `${repoURL}/tree/main/`,
         },
         theme: {
           customCss: './src/css/custom.css',
